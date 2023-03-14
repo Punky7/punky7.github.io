@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+<title>The Prophecies Begin</title>
+       <style>
+           .title{
+              background-color:rgb(160,197,95);
+              width:303px;
+              padding: 10px 10px 10px 10px;
+              margin:auto;
+              margin-bottom:20px;
+           }
+           
+            .series_text{
+             text-align:center;
+             font-family:"Verdana",sans-serif;
+             color:rgb(13,103,89);
+             padding-bottom:5px;
+             position:relative;
+          }
+          
+       </style> 
+    </head>
+<body>
+    <div class="title">
+        <h1>The Prophecies Begin</h1>
+    </div>
+
+    
+      <p class="series_text">Into the Wild</p>
+      <p class="series_text">Fire and Ice</p>
+      <p class="series_text">Forest of Secrets</p>
+      <p class="series_text">Rising Storm</p>
+      <p class="series_text">A Dangerous Path</p>
+      <p class="series_text">The Darkest Hour</p>
+
+
+</body>
+</html>
