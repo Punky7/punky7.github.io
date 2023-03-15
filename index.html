@@ -1,8 +1,33 @@
 <!DOCTYPE html>
 <html>
+  <!--JavaScript-->
+  <script>
+      
+      // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  </script>
+  
     <head>
         <meta charset="utf-8">
         <title>Warriors Webpage</title>
+        
+  <!--CSS-->
+
         <style>
         body{
             background-color: rgb(3,22,52);
@@ -28,7 +53,6 @@
           }
 
           #navbar a {
-             position: fixed;
              float: left;
              display: block;
              color: rgb(13,103,89);
@@ -51,24 +75,21 @@
              width: 100%;
              padding-top: 60px;
           }
-            
+          
         </style>
-</head>
+    </head>
+    <body>
     
-<body>
-        
+  <!--HTML-->
+    
+<h1>Warrior Cats!</h1>
+
 <div id="navbar">
   <a href="#home">What is Warriors?</a>
   <a href="#news">Series</a>
   <a href="#contact">Character Search</a>
   <a href="#none">Warrior Code</a>
   <a href="#none">Members of a Clan</a>
-</div>
-        
-<h1>Warrior Cats!</h1>
-        
-<div>
-    <img src="https://images.unsplash.com/photo-1495703679394-17a5fc5bf19f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1270&q=80" alt="Grey cat walking on green grass during daytime.">
 </div>
 
 <div class="series_box">
@@ -83,10 +104,6 @@
       <p class="one">The Darkest Hour</p>
     
 </div>
-<div>
-    <img scr="https://images.unsplash.com/photo-1534790874664-b740269cb295?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1926&q=80" alt="Brown tabby cat on a mossy log.">
-</div>
-
     
 <div class="series_box">
     
@@ -100,10 +117,7 @@
       <p class="one">Sunset</p>
     
 </div>
-        
-<div>
-    <img src="https://images.unsplash.com/photo-1549291748-630fcc1611bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Brown cat walking on tree branch.">
-</div>
+
 
 <div class="series_box">
     
@@ -116,10 +130,6 @@
       <p class="one">Long Shadows</p>
       <p class="one">Sunrise</p>
     
-</div>
-        
-<div>
-    <img src="https://images.unsplash.com/photo-1531040825718-5ef13577b4d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1168&q=80" alt="White and black cat on grey soil.">
 </div>
 
 <div class="series_box">
@@ -134,10 +144,6 @@
       <p class="one">The Last Hope</p>
     
 </div>
-        
-<div>
-    <img src="https://images.unsplash.com/photo-1592993720623-c6cb872d748e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Black and white tabby sitting on the ground looking through green branches.">
-</div>
 
 <div class="series_box">
     
@@ -151,10 +157,7 @@
       <p class="one">The Raging Storm</p>
     
 </div>
-        
-<div>
-    <img src="https://images.unsplash.com/photo-1655811067776-380ae525e70e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Grey cat in a bush.">
-</div>
+
 
 <div class="series_box">
     
@@ -168,10 +171,6 @@
       <p class="one">A Light in the Mist</p>
       
     
-</div>
-        
-<div>
-    <img src="https://images.unsplash.com/photo-1589125249654-66f4f4cc9543?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Orange and white cat sitting on grass.">
 </div>
 
 <div class="series_box">
