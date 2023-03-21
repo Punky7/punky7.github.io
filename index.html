@@ -93,6 +93,27 @@
           border-width:5px;
           border-color:rgb(112,175,196);
       }
+     
+      .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding: 12px 16px;
+          z-index: 1;
+     }
+
+      .dropdown:hover .dropdown-content {
+          display:block;
+          background-color:rgb(227,232,207);
+  
+     }
 
         </style>
 </head>
@@ -134,7 +155,12 @@
     
     <h3>The Prophecies Begin</h3>
     
-      <p>Into the Wild</p>
+          <div class="dropdown">
+      <span><p>Into the Wild</p></span>
+      <div class="dropdown-content">
+         <p>For generations, four Clans of cats have shared the forest. But ThunderClan is in grave danger, and ShadowClan grows stronger every day. In the midst of this turmoil appears a house cat named Rusty... who may tuen out to be the bravest warrior of them all.</p>
+      </div>
+      </div>
       <p>Fire and Ice</p>
       <p>Forest of Secrets</p>
       <p>Rising Storm</p>
